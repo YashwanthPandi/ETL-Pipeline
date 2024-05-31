@@ -21,3 +21,31 @@ This project leverages a variety of AWS services to build a secure, scalable, an
 - **AWS Glue**: This serverless data integration service simplifies data preparation tasks. AWS Glue will be instrumental in discovering, transforming, and combining data from various sources for analysis.
 - **AWS Lambda**: AWS Lambda, a serverless compute service, allows us to run code without managing servers. This enables us to perform specific data processing tasks within the pipeline without worrying about server infrastructure.
 - **AWS Athena**: For interactive data exploration directly on S3 storage, we'll be using AWS Athena. Athena eliminates the need for data movement, allowing us to efficiently query and analyze our YouTube video data directly in its native S3 location.
+
+## Architecture
+<img src="architecture.jpeg">
+
+## Learning from Project
+
+1. **ETL Pipeline Mastery**: Gained practical experience in building ETL pipelines for data extraction, transformation, and loading.
+
+2. **AWS Integration**: Leveraged AWS services:
+   - **S3** for storage.
+   - **Glue** for data transformation and cataloging.
+   - **Lambda** for serverless processing.
+   - **Athena** for querying.
+   - **QuickSight** for visualization.
+
+3. **Data Lake Architecture**: Structured the data lake into landing, cleansed/enriched, and analytics/reporting areas.
+
+4. **Security**: Implemented secure access using **AWS IAM**.
+
+5. **Orchestration**: Used **AWS Step Functions** for efficient data processing workflows.
+
+6. **Monitoring**: Employed **AWS CloudWatch** for system monitoring and alerts.
+
+7. **Scalable Analytics**: Enabled quick insights using **AWS Athena** without data movement.
+
+8. **Visualization Tools**: Utilized **QuickSight** and other tools for creating interactive dashboards and visualizations.
+
+
