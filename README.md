@@ -15,12 +15,12 @@ We utilize a [Kaggle dataset](https://www.kaggle.com/datasets/datasnaek/youtube-
 
 This project leverages a variety of AWS services to build a secure, scalable, and efficient YouTube video analytics system:
 
-- **Amazon S3**: As our highly scalable object storage service, S3 provides reliable and cost-effective storage for our massive datasets.
-- **AWS IAM**: We utilize IAM to implement robust access control, ensuring secure access to AWS resources and services involved in the pipeline.
-- **Amazon QuickSight**: For data visualization, we'll be using Amazon QuickSight, a serverless, cloud-based BI service that allows us to create interactive dashboards and gain insights from our YouTube video data.
-- **AWS Glue**: This serverless data integration service simplifies data preparation tasks. AWS Glue will be instrumental in discovering, transforming, and combining data from various sources for analysis.
-- **AWS Lambda**: AWS Lambda, a serverless compute service, allows us to run code without managing servers. This enables us to perform specific data processing tasks within the pipeline without worrying about server infrastructure.
-- **AWS Athena**: For interactive data exploration directly on S3 storage, we'll be using AWS Athena. Athena eliminates the need for data movement, allowing us to efficiently query and analyze our YouTube video data directly in its native S3 location.
+- **Amazon S3**
+- **AWS IAM**
+- **Amazon QuickSight**
+- **AWS Glue**
+- **AWS Lambda**
+- **AWS Athena**
 
 ## Architecture
 <img src="architecture.jpeg">
